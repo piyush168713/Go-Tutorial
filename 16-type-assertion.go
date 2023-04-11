@@ -1,3 +1,5 @@
+// type assertion
+
 /*
 Type switches are a form of conversion: they take an interface and, -
 /for each case in the switch, in a sense convert it to the type of that case.
