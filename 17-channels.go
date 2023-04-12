@@ -74,7 +74,7 @@ func test(channel chan string) {
 func main(){
 	channel := make(chan string)
 
-	go func(){
+	go func(){     // goroutines
 		channel <- "Go"
 		channel <- "Java"
 		channel <- "C++"
